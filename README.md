@@ -14,6 +14,12 @@ Used tutorial: [Creating a JSON CRUD API in Go (Gin/GORM)](https://www.youtube.c
 | PUT | /posts/:id | Update a Post| 200 |
 | DELETE | /posts/:id | Delete a Post| 204 |
 
+----
+## Necessary Environment Variables
+
+PORT=3000
+DB_URL="host=localhost user=dbuser password=dbpassword dbname=gorm port=9920 sslmode=disable"
+
 ------
 ## Libraries and Tools
 
