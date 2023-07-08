@@ -6,13 +6,13 @@ Used tutorial: [Creating a JSON CRUD API in Go (Gin/GORM)](https://www.youtube.c
 
 ## Routes created
 
-| Method | Route | Description | Expected Status |
-|--|--|--|--|
-| POST | /posts | Create a Post| 200 |
-| GET | /posts | Retrieve a list of Posts| 200 |
-| GET | /posts/:id | Retrieve a single Post| 200 |
-| PUT | /posts/:id | Update a Post| 200 |
-| DELETE | /posts/:id | Delete a Post| 204 |
+| Route | Method | Description | Expected Status |
+|--|:--:|:--:|:--:|
+| /posts | POST | Create a Post| 200 |
+| /posts | GET | Retrieve a list of Posts| 200 |
+| /posts/:id | GET | Retrieve a single Post| 200 |
+| /posts/:id | PUT | Update a Post| 200 |
+| /posts/:id | DELETE | Delete a Post| 204 |
 
 ----
 ## Necessary Environment Variables
