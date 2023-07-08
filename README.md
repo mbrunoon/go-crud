@@ -43,7 +43,3 @@ ORM library for Golang aims to be developer friendly.
 ### [**Elephant SQL**](https://www.elephantsql.com/)
 
 PostgreSQL as a service
-
-----
-
-Next Step: Build an API with JWT Authentication
